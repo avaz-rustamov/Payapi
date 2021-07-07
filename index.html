@@ -23,16 +23,19 @@
 
         <div class="intro">
           <picture class="img-collection__picture">
-              <source srcset="img/hero-phone-desktop.png 1x, img/hero-phone-desktop@2x.png 2x" media="(min-width: 1024px)" type="image/png" width="263" height="500">
-              <source srcset="img/hero-phone-tablet.png 1x, img/hero-phone-tablet@2x.png 2x" media="(min-width: 375px)"
+
+              <source media="(min-width:1024px)" srcset="img/hero-phone-desktop.png 1x, img/hero-phone-desktop@2x.png 2x"  type="image/png" width="263" height="500">
+
+              <source media="(min-width:375px)" srcset="img/hero-phone-tablet.png 1x, img/hero-phone-tablet@2x.png 2x"
               type="image/png" width="159" height="300">
-              <img src="img/hero-phone-mobile.png" alt="Img phone"
-              srcset="img/hero-phone-mobile.png 1x, img/hero-phone-mobile@2x.png 2x" width="128" height="240">
+
+              <img class="hero-phone-mobile" src="img/hero-phone-mobile.png" alt="Img phone"
+              srcset="img/hero-phone-mobile.png 1x, img/hero-phone-mobile@2x.png 2x" width="159" height="300">
             </picture>
 
 
             <h1 class="hero__heading">
-              Start building with our APIs for absolutely free.
+              Start building with our <br> APIs for absolutely free.
             </h1>
         </div>
       </div>

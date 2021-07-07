@@ -98,4 +98,17 @@ body {
   color: var(--blue);
 }
 
+.hero-phone-mobile {
+  position: absolute;
+  left: 32%;
+  top: 145px;
+}
+
+@media only screen and (min-width: 375px) {
+
+}
+
+.intro {
+  padding-top: 310px;
+}
 
