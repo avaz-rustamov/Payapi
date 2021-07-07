@@ -11,9 +11,33 @@
 </head>
 <body>
 <!-- HEADER -->
-  <header class="site_header">
-    
-  </header>
+  <div class="header">
+    <header class="site_header">
+      <div class="container">
+        <div class="header-top">
+          <img class="logo-header" src="img/fogo-header.svg" alt="Loho Payapi" width="135" height="38">
+          <button class="burger-button" type="button">
+            <img src="img/burger-nav-mobile.svg" alt="Burger nav" width="28" height="17">
+          </button>
+        </div>
+
+        <div class="intro">
+          <picture class="img-collection__picture">
+              <source srcset="img/hero-phone-desktop.png 1x, img/hero-phone-desktop@2x.png 2x" media="(min-width: 1024px)" type="image/png" width="263" height="500">
+              <source srcset="img/hero-phone-tablet.png 1x, img/hero-phone-tablet@2x.png 2x" media="(min-width: 375px)"
+              type="image/png" width="159" height="300">
+              <img src="img/hero-phone-mobile.png" alt="Img phone"
+              srcset="img/hero-phone-mobile.png 1x, img/hero-phone-mobile@2x.png 2x" width="128" height="240">
+            </picture>
+
+
+            <h1 class="hero__heading">
+              Start building with our APIs for absolutely free.
+            </h1>
+        </div>
+      </div>
+    </header>
+  </div>
 
 <!-- MAIN -->
   <main class="main">

@@ -1,3 +1,14 @@
+:root {
+  --blue: #36536b;
+  --blue-light:#afb2b4;
+  --blue-dark: #1b262f;
+  --pink: #da6d97;
+  --pink-dark: #ba4270;
+  --white: #fbfcfe;
+  --font-display: "DM Serif Display", "Arial", sans-serif;
+
+}
+
 @font-face {
   font-family: "Public Sans";
   src: url("../fonts/PublicSans-Regular.woff2") format("woff2"),
@@ -18,8 +29,8 @@
 
 @font-face {
   font-family: "DM Serif Display";
-  src: url("DMSerifDisplay-Regular.woff2") format("woff2"),
-    url("DMSerifDisplay-Regular.woff") format("woff");
+  src: url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/DMSerifDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -43,6 +54,7 @@ body {
   font-size: 15px;
   line-height: 28px;
   background-color: #EDF3F8;
+  margin: 0;
 }
 .container {
   max-width: 1150px;
@@ -50,6 +62,40 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Site Header  */
+.header {
+  background-image: url(../img/hero-bg-mobile.png);
+  background-size: 780px 780px;
+  background-repeat: no-repeat;
+  background-position: calc(50%) -500px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 80px; */
+  padding-top: 30px;
+}
+
+.logo-header {
+  margin-right: auto;
+}
+
+.burger-button {
+  border: none;
+  background-color: transparent;
+}
+
+.hero__heading {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.246154px;
+  color: var(--blue);
 }
 
 
